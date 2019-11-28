@@ -1,11 +1,6 @@
 import React from "react";
-import MainTitle from "../basic/MainTitle";
+import AboutTemplate from "../template/AboutTemplate";
 
-const About: React.FC = () => (
-  <section>
-    <MainTitle title="About" />
-    <div>about contents.</div>
-  </section>
-);
+const About: React.FC = () => <AboutTemplate />;
 
 export default About;
